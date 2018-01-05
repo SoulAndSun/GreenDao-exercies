@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/startAdapt"
+        android:title="@string/start_adapt"
+        />
+
+    <item
+        android:id="@+id/cancelAdapt"
+        android:title="@string/cancel_adapt"
+        />
+    <item
+        android:id="@+id/other"
+        android:title="@string/other"/>
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GreenDao-exercies</string>
+    <string name="start_adapt">start adapt</string>
+    <string name="cancel_adapt">cancel adapt</string>
+    <string name="login">登录</string>
+    <string name="other">other</string>
+    <string name="title">what content to display in this</string>
+</resources>

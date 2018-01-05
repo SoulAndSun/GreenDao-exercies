@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#4c3973"
+    android:orientation="vertical">
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="100px"
+    android:background="#959994"
+    >
+    <com.example.heartx.greendao_exercies.CustomTextView
+        android:id="@+id/tv2"
+        android:layout_width="300px"
+        android:layout_height="200px"
+        android:text="list view"
+        android:layout_marginLeft="20px"
+        android:gravity="center"
+        android:background="#9ebfe1"
+        app:cName="atest|btest"
+        />
+
+</FrameLayout>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="600px"
+        android:layout_height="800px"
+        android:background="#8667afea"
+        android:layout_gravity="center"
+        android:layout_marginTop="100px">
+
+    </ListView>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#558899"
+        app:layout_auto_baseheight="paddingBottom|marginLeft">
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</LinearLayout>
